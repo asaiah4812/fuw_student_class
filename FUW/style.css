@@ -1,0 +1,58 @@
+.wukari{
+    background: skyblue;
+   
+}
+
+.wukari:hover{
+    color: white;
+    background: rgb(65, 141, 170);
+}
+.wukari:active{
+    background: rgb(90, 122, 134);
+}
+
+.kurmi{
+    background: green;
+    color: white;
+}
+.kurmi:hover{
+    background: rgb(2, 81, 2);
+    color: white;
+}
+.kurmi:active{
+    background: rgb(45, 117, 45);
+    color: white;
+}
+
+.jalingo{
+    background: #d7700a;
+    color: white;
+}
+.jalingo:hover{
+    background: #934d07;
+    color: white;
+}
+.jalingo:active{
+    background: #9b6e41;
+    color: white;
+}
+
+a{
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: ease all 0.3s;
+}
+
+div{
+    margin-top: 20px;
+}
+
+img{
+    width:600px;
+    border-radius: 20px;
+    transition: ease all 0.4s;
+    cursor: pointer;
+}
+img:hover{
+    width:620px;
+}
